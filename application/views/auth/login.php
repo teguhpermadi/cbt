@@ -1,5 +1,5 @@
 <div class="container pt-4">
-    <div class="info-box bg-transparent shadow-none">
+    <!-- <div class="info-box bg-transparent shadow-none">
         <?php
         $logo_app = $setting->logo_kanan == null ? base_url() . 'assets/img/favicon.png' : base_url() . $setting->logo_kanan;
         ?>
@@ -8,12 +8,12 @@
             <h5 class="info-box-text text-white text-wrap"><b><?= $setting->nama_aplikasi ?></b></h5>
             <span class="info-box-text text-white"><?= $setting->alamat ?></span>
         </div>
-    </div>
+    </div> -->
     <div class="container-fluid h-100">
         <div class="row h-100 justify-content-center">
             <div class="login-box">
-                <div class="login-logo text-white" style="text-shadow: 1px 1px 2px #000000">
-                    <b>S</b>elamat <b>D</b>atang
+                <div class="login-logo text-blue" style="text-shadow: 1px 1px 2px #000000">
+                    <b>Selamat Datang</b>
                 </div>
 
                 <div class="card form-signin">
@@ -76,14 +76,14 @@
     let base_url = '<?=base_url();?>';
     var img = ["wall1.jpg", "wall2.png", "wall3.jpg"];
 
-    $.backstretch([
-        base_url + 'assets/img/' + img[0],
-        base_url + 'assets/img/' + img[1],
-        base_url + 'assets/img/' + img[2]
-    ], {
-        fade: 1000,
-        duration: 10000
-    });
+    // $.backstretch([
+    //     base_url + 'assets/img/' + img[0],
+    //     base_url + 'assets/img/' + img[1],
+    //     base_url + 'assets/img/' + img[2]
+    // ], {
+    //     fade: 1000,
+    //     duration: 10000
+    // });
 
     $(document).ready(function(){
         $('#myCarousel').carousel({

@@ -1,7 +1,8 @@
 <!-- Content Wrapper. Contains page content -->
 <div class="content-wrapper bg-light">
     <section class="content-header p-0 d-flex align-items-end"
-             style="height: 400px; background: url('<?= base_url('assets/img/wall2.png') ?>')">
+             >
+             <!-- style="height: 400px; background: url('<?= base_url('assets/img/wall2.png') ?>')"> -->
         <div class="container-fluid pl-0 pr-0 pb-0 pt-4" style="background-color: rgba(255,255,255,0.7)">
             <div class="row m-0">
                 <?php foreach ($info_box as $info) : ?>
